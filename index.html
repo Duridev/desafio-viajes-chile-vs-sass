@@ -189,22 +189,22 @@
 
 
         <!-- Seccion Destacados -->
-        <h2 class="text-center text-white mt-5 fs-3" id="destacados">DESTACADOS</h2>
-        <hr class="text-white mt-4">
+        <h2 class="text-center text-white mt-5 fs-3" id="destacados">Destacados</h2>
+        <hr class="mt-3 mb-5 border-5 border-light">
 
         <div class="container-fluid text-center px-3 px-md-0">
             <div class="row">
 
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 mb-md-3">
                     <!-- Card 1 -->
-                    <div class="card mb-3" >
+                    <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <img src="./assets/img/card1.jpg" class="img-fluid rounded-start h-100"
                                     alt="lugar destacado 1">
                             </div>
                             <div class="col-md-8">
-                                <div class="card-body">
+                                <div class="card-body text-start">
                                     <h5 class="card-title">Región de los Lagos</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi
                                         consequuntur
@@ -232,7 +232,7 @@
                                     alt="lugar destacado 1">
                             </div>
                             <div class="col-md-8">
-                                <div class="card-body">
+                                <div class="card-body text-start">
                                     <h5 class="card-title">Desierto de Atacama</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi
                                         consequuntur
@@ -259,7 +259,7 @@
                                     alt="lugar destacado 1">
                             </div>
                             <div class="col-md-8">
-                                <div class="card-body">
+                                <div class="card-body  text-start">
                                     <h5 class="card-title">Norte grande de Chile</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi
                                         consequuntur
@@ -286,7 +286,7 @@
                                     alt="lugar destacado 1">
                             </div>
                             <div class="col-md-8">
-                                <div class="card-body">
+                                <div class="card-body text-start">
                                     <h5 class="card-title">Bosque mágico</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi
                                         consequuntur
@@ -315,28 +315,56 @@
     <h2 class="text-center text-white mt-5 fs-3" id="contacto">CONTACTO</h2>
     <hr class="text-white mt-4">
 
-    <form class="container-fluid px-3 px-md-0">
-        <div class="mx-md-5 px-md-5">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label text-white">Nombre</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1">
-            </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-6">
 
-            <div class="mb-3">
-                <label for="exampleFormControlInput2" class="form-label text-white">Asunto</label>
-                <input type="text" class="form-control" id="exampleFormControlInput2">
-            </div>
+                <form class="container-fluid px-3 px-md-0">
+                    
+                    <div class="">
+                        <div class="container px-0">
+                            <div class="row">
+                              <div class="col-6">
+                                <div class="mb-3 w-100 d-inline-block text-start ">
+                                    <label for="exampleFormControlInput1" class="form-label text-white">Nombre<i class="fa-solid fa-circle-info ms-1"></i></label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                                </div>
+                              </div>
+                              <div class="col-6">
+                                <div class="mb-3 w-100 d-inline-block text-start">
+                                    <label for="exampleInputEmail1" class="form-label text-white">Email<i class="fa-solid fa-circle-info ms-1"></i></label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                              </div>
 
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
-            </div>
+                            </div>
+                          </div>                      
+                                  
+                        <div class="mb-3 text-start">
+                            <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje<i class="fa-solid fa-circle-info ms-1"></i></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                        </div>
 
-            <div class="col-12">
-                <button type="submit" class="btn btn-info text-white">Enviar</button>
+                        <div class="mb-3 form-check  text-start">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-decoration-underline text-white" for="exampleCheck1">Acepto los términos y condiciones</label>
+                          </div>
+            
+                        <div class="text-start">
+                            <button type="submit" class="btn btn-info text-white">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-6">
+                Column
             </div>
         </div>
-    </form>
+    </div>
+
+
+
 
 
     <!--  Footer -->
