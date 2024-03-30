@@ -1,0 +1,42 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+    width: 2rem;
+}
+
+
+/* NavBar */
+.navbar {
+ z-index: 1;
+}
+
+.nav-item a:hover {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding-inline: 1rem;
+    font-weight: bold;
+}
+
+/* Carrusel */
+#carouselExampleAutoplaying {
+    z-index: -1 !important;
+}
+
+/*  */
+.card:hover {
+    cursor: pointer;
+}
+
+
+/* Footer */
+.iconos-rrss a i:hover {
+    scale: 1.15;
+}
