@@ -40,3 +40,14 @@ body {
 .iconos-rrss a i:hover {
     scale: 1.15;
 }
+
+
+.carousel-item img {
+    height: 300px;
+}
+
+@media (width >= 576px) {
+    .carousel-item img {
+        height: 500px;
+    }
+}
