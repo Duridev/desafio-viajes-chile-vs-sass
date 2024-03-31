@@ -61,3 +61,51 @@ hr {
     }
   }
   
+
+  .testimonios__title {
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+    font-size: 1.75rem;
+}
+
+.testimonios__hr {
+    margin: 1.5rem  auto;
+}
+
+.testimonios__container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.testimonios__row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.testimonios__column {
+    text-align: center;
+    color: white;
+    max-width: 22rem;
+    padding-inline:  2rem;
+    margin-bottom: 2.5rem;
+}
+
+.testimonios__parrafo {
+    padding-inline: 0.5rem;
+}
+
+.testimonio__image {
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.testimonios__name {
+    font-weight: 700;
+}
