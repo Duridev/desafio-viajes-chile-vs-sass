@@ -21,7 +21,7 @@
 </head>
 
 
-<body class="bg-black mx-md-5 px-md-5 mx-auto">
+<body class="bg-black mx-md-5 px-md-5">
 
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
@@ -109,14 +109,15 @@
 
         <!-- Sección Quienes Somos -->
 
-        <div class="container-fluid text-center d-none d-md-block" id="quienesSomos">
+        <div class="container-fluid text-center" id="quienesSomos">
             <h2 class="text-center text-white mt-5 fs-3">¿Quiénes Somos?</h2>
             <hr class="text-white mt-4">
             <br>
             <div class="container">
                 <div class="row">
 
-                        <img class="col-12 col-md-6 rounded-5" src="./assets/img/quienes-somos.jpg" alt="">
+                    <img class="col-12 col-md-6 rounded-5 d-none d-md-block" src="./assets/img/quienes-somos.jpg"
+                        alt="">
 
 
                     <div class="col-12 col-md-6 text-start text-white">
@@ -125,7 +126,7 @@
                             obcaecati, hic dolore accusamus perspiciatis quaerat! Autem perspiciatis reiciendis
                             cupiditate nulla temporibus est quidem consequatur a odit ab. Ea nobis impedit voluptatum
                             sunt non quo enim magnam veritatis quod?</p>
-                            <br>
+                        <br>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quasi dicta quas sed ipsum
                             temporibus explicabo ab sint dolorem maiores tempore ea a molestias saepe alias quidem
                             autem! Sit ipsa fugit voluptate. Neque voluptate culpa, minima, non iure doloribus at
@@ -257,6 +258,40 @@
     </main>
 
 
+    <!-- Testimonios -->
+    <section class="testimonios">
+        <h2 class="text-center text-white mt-5 fs-3 testimonios__title" id="contacto">Testimonio</h2>
+        <hr class="text-white mt-4">
+
+        <div class="container-fluid testimonios__container">
+            <div class="row testimonios__row">
+                <div class="col-md-4 col-12 testimonios__column text-center text-white">
+                    <p class="testimonios__parrafo px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Accusantium perferendis dolorem suscipit
+                        minus itaque ea culpa libero provident mollitia possimus.</p>
+                    <img class="rounded-circle testimonio__image" src="./assets/img/testimonio1.jpg" alt="">
+                    <h4 class="testimonios__name">Mariela</h4>
+                </div>
+
+                <div class="col-md-4 col-12 testimonios__column text-center text-white">
+                    <p class="testimonios__parrafo px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Accusantium perferendis dolorem suscipit
+                        minus itaque ea culpa libero provident mollitia possimus.</p>
+                    <img class="rounded-circle testimonio__image" src="./assets/img/testimonio2.jpg" alt="">
+                    <h4 class="testimonios__name">Christian</h4>
+                </div>
+
+                <div class="col-md-4 col-12 testimonios__column text-center text-white">
+                    <p class="testimonios__parrafo px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Accusantium perferendis dolorem suscipit
+                        minus itaque ea culpa libero provident mollitia possimus.</p>
+                    <img class="rounded-circle testimonio__image" src="./assets/img/testimonio3.jpg" alt="">
+                    <h4 class="testimonios__name">Fernanda</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -264,9 +299,9 @@
     <h2 class="text-center text-white mt-5 fs-3" id="contacto">Contacto</h2>
     <hr class="text-white mt-4">
 
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-6">
+    <div class="container-fluid">
+        <div class="row flex-wrap">
+            <div class="col-md-6 col-12">
 
                 <form class="container-fluid px-3 px-md-0">
 
@@ -276,14 +311,16 @@
                                 <div class="col-6">
                                     <div class="mb-3 w-100 d-inline-block text-start ">
                                         <label for="exampleFormControlInput1" class="form-label text-white">Nombre<i
-                                                class="fa-solid fa-circle-info ms-1" data-bs-toggle="tooltip" data-bs-title="Ingresa tu nombre completo"></i></label>
+                                                class="fa-solid fa-circle-info ms-1" data-bs-toggle="tooltip"
+                                                data-bs-title="Ingresa tu nombre completo"></i></label>
                                         <input type="text" class="form-control" id="exampleFormControlInput1">
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="mb-3 w-100 d-inline-block text-start">
                                         <label for="exampleInputEmail1" class="form-label text-white">Email<i
-                                                class="fa-solid fa-circle-info ms-1" data-bs-toggle="tooltip" data-bs-title="Ingresá tu correo electrónico"></i></label>
+                                                class="fa-solid fa-circle-info ms-1" data-bs-toggle="tooltip"
+                                                data-bs-title="Ingresá tu correo electrónico"></i></label>
                                         <input type="email" class="form-control" id="exampleInputEmail1"
                                             aria-describedby="emailHelp">
                                     </div>
@@ -294,7 +331,8 @@
 
                         <div class="mb-3 text-start">
                             <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje<i
-                                    class="fa-solid fa-circle-info ms-1" data-bs-toggle="tooltip" data-bs-title="Escribe tu mensaje aquí"></i></label>
+                                    class="fa-solid fa-circle-info ms-1" data-bs-toggle="tooltip"
+                                    data-bs-title="Escribe tu mensaje aquí"></i></label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
 
@@ -311,7 +349,7 @@
                 </form>
 
             </div>
-            <div class="col-6 d-flex align-items-center text-white text-start">
+            <div class="col-md-6 mt-4 mt-md-0 col-12 d-flex align-items-center text-white text-start">
                 <div>
                     <h6 class="mb-4"><i class="fa-solid fa-phone me-3"></i>+56999887766 </h6>
                     <h6 class="mb-4"><i class="fa-solid fa-envelope me-3"></i>contacto@viajeschile.com</h6>
