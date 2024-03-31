@@ -56,3 +56,8 @@ body {
     width: 5rem;
     height: 5rem;
 }
+
+hr {
+    border: 5px solid whitesmoke;
+
+}

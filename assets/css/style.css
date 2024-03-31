@@ -1,3 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  width: 2rem;
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.nav-item a:hover {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding-inline: 1rem;
+  font-weight: bold;
+}
+
+#carouselExampleAutoplaying {
+  z-index: -1 !important;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.iconos-rrss a i:hover {
+  transform: scale(1.15);
+}
+
+.carousel-item img {
+  height: 300px;
+}
+@media (min-width: 576px) {
+  .carousel-item img {
+    height: 500px;
+  }
+}
+
+.testimonio__image {
+  width: 5rem;
+  height: 5rem;
+}
+
+hr {
+  border: 3px solid whitesmoke;
+}
 
 /*# sourceMappingURL=style.css.map */
